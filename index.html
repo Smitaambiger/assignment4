@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    .pagination{
+        display: flex;
+        align-items: center;
+
+    }
+    .pagination a{
+        color: blueviolet;
+        float: left;
+        padding: 10px;
+        
+    }
+        .button
+        {
+            padding: 10px;
+        
+        }
+        .stretch{
+           background-color: green;
+           color: white;
+        border: none;
+           cursor: pointer;
+           padding: 10px;
+        }
+
+        .stretch:hover{
+            padding: 15px 25px;
+        }
+        .shadow{
+            background-color: green;
+        
+        
+            font-size: 20px;
+           position: absolute;
+            padding: 10px;
+            text-decoration: none;
+            
+            color: white;
+        
+            cursor: pointer;
+            border: none;
+            box-shadow:4px 5px 0px 1px rgb(211, 209, 209);
+            transition: all 0.1 ease;
+            
+        }
+           .shadow:active{
+            box-shadow: none;
+            position: relative;
+            top: 8px;
+           }
+
+           .b1{
+            background-color: green;
+            color: white;
+            margin-right: 100px;
+            border: none;
+            height: 20px;
+            width: 80%;
+            display: inline-block;
+            position: relative;
+            transition: all 0.1s ease;
+
+           }
+           .b1:hover{
+            transform: scale(1.5);
+            margin-right: 100px;
+            
+            
+            
+
+           }
+       
+</style>
+</head>
+<body>
+    <div>
+    <p>4h</p>
+    <div class="pagination">
+        <a href="#"><button class="button">Back</button></a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#"><button class="button">Next</button></a>
+    </div>
+
+    <br>
+    <br>
+    <p>4i</p>
+      <button class="stretch">Stretch</button>
+
+      <br><br>
+      <p>4j</p>
+       <a href="#" ><button class="shadow">Shadow</button></a>
+<br>
+<br>
+</div>
+<br><br><br>
+<p>4</p>
+<div>
+
+       <div class="padding" style="display: inline-flex;">
+        <div style="width: 80px;"><button class="b1">one</button></div> <div style="width: 80px;"><button class="b1">two</button></div> <div style="width: 80px;"><button class="b1">three</button></div>
+    </div>
+</div>
+</body>
+</html>
